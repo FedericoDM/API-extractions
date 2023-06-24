@@ -1,4 +1,3 @@
-# Author: Federico Domínguez Molina
 # Class for scrapping DOF with 2023 API
 
 import json
