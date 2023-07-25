@@ -13,3 +13,7 @@ The *eod_data* folder contains codes that extract adjusted end-of-day prices for
 ### DOF
 
 The *dof* folder contains a class that extracts the data from Mexico's *Official Journal of the Federation* by using their [public API](https://sidof.segob.gob.mx/datos_abiertos). The code extracts, for a given date, all of the diary's notes, the document itself and the JSON file with all of the information. This is then uploaded to the user's S3 Bucket in AWS. 
+
+### UScensus
+
+The *uscensus* folder contains a class that extracts CO2 emissions data from the US Census. The user has the flexibility to choose the year and the estimation type (either one year or five years).
